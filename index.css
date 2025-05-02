@@ -3,14 +3,7 @@
   border: 1px solid purple;
 }
 */
-p {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 20px;
-  background: black;
-  color: white;
-}
+
 body {
   margin: 0;
   padding: 0;
