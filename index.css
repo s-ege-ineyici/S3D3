@@ -3,7 +3,10 @@
   border: 1px solid purple;
 }
 */
-
+p {
+  background: black;
+  color: yellow;
+}
 body {
   margin: 0;
   padding: 0;
