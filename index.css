@@ -1,0 +1,91 @@
+/* Sayfamızdaki bütün elemanların sınırlarını görebilmek için geçici bir çizgi ekleyebiliriz. Bunu proje sonunda silebilirsiniz. 
+* {
+  border: 1px solid purple;
+}
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 750px;
+}
+
+.btn {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.active {
+  background: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+header h2 {
+  text-align: left;
+}
+
+header nav {
+  float: inline-end;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  padding: 15px 20px;
+  border: 1px solid black;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}
+
+.banner-section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  aspect-ratio: 4/3;
+  margin: 5% auto;
+  background: gray;
+}
+
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+  text-align: center;
+}
+
+.projects-section {
+  padding: 10px 20px;
+}
+
+.projects-item {
+  width: 30%;
+}
+
+.projects-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  background: gray;
+}
+
+footer {
+  width: 100%;
+  background: gray;
+  padding: 20px 0;
+}
+
+footer button {
+  display: block;
+  margin: 20px auto;
+}
